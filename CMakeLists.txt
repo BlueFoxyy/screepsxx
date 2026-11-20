@@ -14,8 +14,6 @@ target_include_directories(screepsxx
 		PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/Screeps
 		)
 
-set(COMPILE_FLAGS -sSTRICT=0)
-set(LINK_FLAGS -sALLOW_MEMORY_GROWTH=1)
 target_compile_options(screepsxx PUBLIC ${COMPILE_FLAGS})
 target_link_options(screepsxx PUBLIC ${COMPILE_FLAGS} ${LINK_FLAGS})
 
