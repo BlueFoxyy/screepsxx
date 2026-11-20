@@ -6,7 +6,6 @@
 #include "StructureStorage.hpp"
 
 #include <iostream>
-#include <functional>
 
 namespace Screeps {
 

@@ -4,6 +4,8 @@
 #include "Constants.hpp"
 #include "Object.hpp"
 
+#include <functional>
+
 namespace Screeps {
 
 class RoomObject;
